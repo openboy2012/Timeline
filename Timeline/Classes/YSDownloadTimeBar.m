@@ -7,8 +7,6 @@
 //
 
 #import "YSDownloadTimeBar.h"
-//#import "UIFont+YSSize.h"
-//#import "UIButton+EnlargeTouchArea.h"
 #import "UIColor+PreferConfign.h"
 #import "UIView+Sizes_nisk.h"
 #import "Masonry.h"
@@ -37,6 +35,7 @@
 @property (nonatomic, assign) CGFloat timeWidth; //时间占屏幕的宽度
 @property (nonatomic, strong) NSMutableArray<YSTimeDrawInfo *> *drawInfos; //通常只有一个，也可能存在多个
 @property (nonatomic, copy) NSString *timeText; //时间点
+@property (nonatomic, strong) NSMutableArray<YSTimePoint *> *clusterTimePoints; //下级时间点数组
 
 @end
 
