@@ -6,5 +6,8 @@ platform:ios, '8.0'
 target 'Timeline' do
 
 pod 'Masonry', '1.1.0'
+pod 'DDCategory'
+pod 'ReactiveObjC'
+
 
 end

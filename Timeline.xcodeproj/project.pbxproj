@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DA3E38C20CE9952000527BB /* YSDownloadTimeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E38A20CE9952000527BB /* YSDownloadTimeBar.m */; };
+		0D5C32D321DF480600CAC2EE /* YSTimeBarPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C32D221DF480500CAC2EE /* YSTimeBarPanel.m */; };
+		0D5C32D621DF4A6C00CAC2EE /* UIFont+YSSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C32D421DF4A6C00CAC2EE /* UIFont+YSSize.m */; };
+		0D5C32DB21DF4AAB00CAC2EE /* YSTimeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C32D921DF4AAB00CAC2EE /* YSTimeNode.m */; };
+		0D5C32DC21DF4AAB00CAC2EE /* YSRecordSlice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C32DA21DF4AAB00CAC2EE /* YSRecordSlice.m */; };
+		0D5C32DF21DF4B6100CAC2EE /* UIFont+PreferConfign.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5C32DD21DF4B6100CAC2EE /* UIFont+PreferConfign.m */; };
 		0DA3E39020CE9C30000527BB /* UIView+Sizes_nisk.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E38E20CE9C30000527BB /* UIView+Sizes_nisk.m */; };
 		0DA3E39320CE9C66000527BB /* UIColor+PreferConfign.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E39120CE9C66000527BB /* UIColor+PreferConfign.m */; };
 		0DA3E39620CE9CB4000527BB /* YSDeviceJudger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA3E39420CE9CB4000527BB /* YSDeviceJudger.m */; };
@@ -22,8 +26,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DA3E38A20CE9952000527BB /* YSDownloadTimeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDownloadTimeBar.m; sourceTree = "<group>"; };
-		0DA3E38B20CE9952000527BB /* YSDownloadTimeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDownloadTimeBar.h; sourceTree = "<group>"; };
+		0D5C32D121DF480500CAC2EE /* YSTimeBarPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTimeBarPanel.h; sourceTree = "<group>"; };
+		0D5C32D221DF480500CAC2EE /* YSTimeBarPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTimeBarPanel.m; sourceTree = "<group>"; };
+		0D5C32D421DF4A6C00CAC2EE /* UIFont+YSSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YSSize.m"; sourceTree = "<group>"; };
+		0D5C32D521DF4A6C00CAC2EE /* UIFont+YSSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+YSSize.h"; sourceTree = "<group>"; };
+		0D5C32D721DF4AAB00CAC2EE /* YSTimeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTimeNode.h; sourceTree = "<group>"; };
+		0D5C32D821DF4AAB00CAC2EE /* YSRecordSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSRecordSlice.h; sourceTree = "<group>"; };
+		0D5C32D921DF4AAB00CAC2EE /* YSTimeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTimeNode.m; sourceTree = "<group>"; };
+		0D5C32DA21DF4AAB00CAC2EE /* YSRecordSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSRecordSlice.m; sourceTree = "<group>"; };
+		0D5C32DD21DF4B6100CAC2EE /* UIFont+PreferConfign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+PreferConfign.m"; sourceTree = "<group>"; };
+		0D5C32DE21DF4B6100CAC2EE /* UIFont+PreferConfign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+PreferConfign.h"; sourceTree = "<group>"; };
 		0DA3E38E20CE9C30000527BB /* UIView+Sizes_nisk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes_nisk.m"; sourceTree = "<group>"; };
 		0DA3E38F20CE9C30000527BB /* UIView+Sizes_nisk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes_nisk.h"; sourceTree = "<group>"; };
 		0DA3E39120CE9C66000527BB /* UIColor+PreferConfign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PreferConfign.m"; sourceTree = "<group>"; };
@@ -62,8 +74,12 @@
 		0DA3E38920CE9952000527BB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0DA3E38B20CE9952000527BB /* YSDownloadTimeBar.h */,
-				0DA3E38A20CE9952000527BB /* YSDownloadTimeBar.m */,
+				0D5C32D821DF4AAB00CAC2EE /* YSRecordSlice.h */,
+				0D5C32DA21DF4AAB00CAC2EE /* YSRecordSlice.m */,
+				0D5C32D721DF4AAB00CAC2EE /* YSTimeNode.h */,
+				0D5C32D921DF4AAB00CAC2EE /* YSTimeNode.m */,
+				0D5C32D121DF480500CAC2EE /* YSTimeBarPanel.h */,
+				0D5C32D221DF480500CAC2EE /* YSTimeBarPanel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -71,6 +87,10 @@
 		0DA3E38D20CE9C30000527BB /* Kits */ = {
 			isa = PBXGroup;
 			children = (
+				0D5C32DE21DF4B6100CAC2EE /* UIFont+PreferConfign.h */,
+				0D5C32DD21DF4B6100CAC2EE /* UIFont+PreferConfign.m */,
+				0D5C32D521DF4A6C00CAC2EE /* UIFont+YSSize.h */,
+				0D5C32D421DF4A6C00CAC2EE /* UIFont+YSSize.m */,
 				0DA3E39520CE9CB4000527BB /* YSDeviceJudger.h */,
 				0DA3E39420CE9CB4000527BB /* YSDeviceJudger.m */,
 				0DA3E39220CE9C66000527BB /* UIColor+PreferConfign.h */,
@@ -262,11 +282,15 @@
 			files = (
 				0DA3E39020CE9C30000527BB /* UIView+Sizes_nisk.m in Sources */,
 				0DDA2C222096F577008D2B94 /* ViewController.m in Sources */,
+				0D5C32DB21DF4AAB00CAC2EE /* YSTimeNode.m in Sources */,
+				0D5C32DC21DF4AAB00CAC2EE /* YSRecordSlice.m in Sources */,
 				0DA3E39320CE9C66000527BB /* UIColor+PreferConfign.m in Sources */,
+				0D5C32DF21DF4B6100CAC2EE /* UIFont+PreferConfign.m in Sources */,
+				0D5C32D621DF4A6C00CAC2EE /* UIFont+YSSize.m in Sources */,
+				0D5C32D321DF480600CAC2EE /* YSTimeBarPanel.m in Sources */,
 				0DDA2C2D2096F579008D2B94 /* main.m in Sources */,
 				0DA3E39920CE9D26000527BB /* YSRecordFileInfo.m in Sources */,
 				0DA3E39620CE9CB4000527BB /* YSDeviceJudger.m in Sources */,
-				0DA3E38C20CE9952000527BB /* YSDownloadTimeBar.m in Sources */,
 				0DDA2C1F2096F577008D2B94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,17 +432,19 @@
 			baseConfigurationReference = A0970D5D2AA9C78B01817BF5 /* Pods-Timeline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5DHDUGG7JV;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F76XM9QFY9;
 				INFOPLIST_FILE = Timeline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ezviz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddkit.ezivz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "43ddcaa9-26a8-49cb-bc82-11db3d140892";
-				PROVISIONING_PROFILE_SPECIFIER = ezvizDevelopment;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -428,14 +454,16 @@
 			baseConfigurationReference = D59693F89214C1333B58699D /* Pods-Timeline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F76XM9QFY9;
 				INFOPLIST_FILE = Timeline/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ezviz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddkit.ezivz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
